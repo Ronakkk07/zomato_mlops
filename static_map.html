@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2b827c502320a881fc6a3909097a73d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2b827c502320a881fc6a3909097a73d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2b827c502320a881fc6a3909097a73d3 = L.map(
+                "map_2b827c502320a881fc6a3909097a73d3",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f2b2f8e25222da3b916c4b47bccc862e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var marker_e74baa8c13428114e91120c252080904 = L.marker(
+                [13.0294483, 80.2309064],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_96aea345f6562bb3205328fffc2922cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e74baa8c13428114e91120c252080904.setIcon(icon_96aea345f6562bb3205328fffc2922cc);
+        
+    
+        var popup_635fbfada9535dc4e5b7f39d77b12c71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ecad810073631bf57eb664b09cf6061 = $(`<div id="html_4ecad810073631bf57eb664b09cf6061" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.16</div>`)[0];
+                popup_635fbfada9535dc4e5b7f39d77b12c71.setContent(html_4ecad810073631bf57eb664b09cf6061);
+            
+        
+
+        marker_e74baa8c13428114e91120c252080904.bindPopup(popup_635fbfada9535dc4e5b7f39d77b12c71)
+        ;
+
+        
+    
+    
+            var marker_e81d2ccd325636bf3b78eea738c5f87d = L.marker(
+                [13.0620626, 80.240487],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_f67804eee008ab2ea8a6b1fe9299613e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e81d2ccd325636bf3b78eea738c5f87d.setIcon(icon_f67804eee008ab2ea8a6b1fe9299613e);
+        
+    
+        var popup_0e05a6712e60f38df3ae1716507a3e3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1b8a378ded28604a56924b106b90c99 = $(`<div id="html_f1b8a378ded28604a56924b106b90c99" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.15</div>`)[0];
+                popup_0e05a6712e60f38df3ae1716507a3e3c.setContent(html_f1b8a378ded28604a56924b106b90c99);
+            
+        
+
+        marker_e81d2ccd325636bf3b78eea738c5f87d.bindPopup(popup_0e05a6712e60f38df3ae1716507a3e3c)
+        ;
+
+        
+    
+    
+            var marker_4cc50470f9579457da313e05792a2242 = L.marker(
+                [12.8921486, 80.0829603],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_ecbc51d87536e9c0b4e22b9bfe12b6a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cc50470f9579457da313e05792a2242.setIcon(icon_ecbc51d87536e9c0b4e22b9bfe12b6a5);
+        
+    
+        var popup_e64de12994424a77a69e0bba9317bf7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53f66c67db72243b9a3e96c5e55267c5 = $(`<div id="html_53f66c67db72243b9a3e96c5e55267c5" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.15</div>`)[0];
+                popup_e64de12994424a77a69e0bba9317bf7f.setContent(html_53f66c67db72243b9a3e96c5e55267c5);
+            
+        
+
+        marker_4cc50470f9579457da313e05792a2242.bindPopup(popup_e64de12994424a77a69e0bba9317bf7f)
+        ;
+
+        
+    
+    
+            var marker_1b1ce5a7f0638e58e8c2467a0b207872 = L.marker(
+                [13.0487049, 80.0840885],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_2dc4151603701936c616a8558e661a4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b1ce5a7f0638e58e8c2467a0b207872.setIcon(icon_2dc4151603701936c616a8558e661a4c);
+        
+    
+        var popup_eef20de85927616576a2fcbead0ac6d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c2fb382e3a7929271def8b75dd37d0 = $(`<div id="html_51c2fb382e3a7929271def8b75dd37d0" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.15</div>`)[0];
+                popup_eef20de85927616576a2fcbead0ac6d3.setContent(html_51c2fb382e3a7929271def8b75dd37d0);
+            
+        
+
+        marker_1b1ce5a7f0638e58e8c2467a0b207872.bindPopup(popup_eef20de85927616576a2fcbead0ac6d3)
+        ;
+
+        
+    
+    
+            var marker_bec8f9ead6344ffcb22948e1fc66b436 = L.marker(
+                [14.2012997, 78.77085116013691],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_fc2895e33911ac6defa8a52dfd892eb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bec8f9ead6344ffcb22948e1fc66b436.setIcon(icon_fc2895e33911ac6defa8a52dfd892eb2);
+        
+    
+        var popup_1e76b5e5bdf151f1406d74764735a0c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_559f21c8caf2220963946328ab32cc0b = $(`<div id="html_559f21c8caf2220963946328ab32cc0b" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.14</div>`)[0];
+                popup_1e76b5e5bdf151f1406d74764735a0c8.setContent(html_559f21c8caf2220963946328ab32cc0b);
+            
+        
+
+        marker_bec8f9ead6344ffcb22948e1fc66b436.bindPopup(popup_1e76b5e5bdf151f1406d74764735a0c8)
+        ;
+
+        
+    
+    
+            var marker_c3545aa037ba8be348a4dcd84b0fe9cc = L.marker(
+                [12.9229928, 80.1882897],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_78a63450d30bf414b24d6c3a2c7e155a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3545aa037ba8be348a4dcd84b0fe9cc.setIcon(icon_78a63450d30bf414b24d6c3a2c7e155a);
+        
+    
+        var popup_55c62d09cae37e6e54c69575198c09ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_863e946ab17df1269fed9dc92f717fbc = $(`<div id="html_863e946ab17df1269fed9dc92f717fbc" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.14</div>`)[0];
+                popup_55c62d09cae37e6e54c69575198c09ef.setContent(html_863e946ab17df1269fed9dc92f717fbc);
+            
+        
+
+        marker_c3545aa037ba8be348a4dcd84b0fe9cc.bindPopup(popup_55c62d09cae37e6e54c69575198c09ef)
+        ;
+
+        
+    
+    
+            var marker_2067080351ef0a0b2b126ee1f0661818 = L.marker(
+                [13.0604285, 80.2750704],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_a5108bbb907b6e5d1058ec4e3d0ee9a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2067080351ef0a0b2b126ee1f0661818.setIcon(icon_a5108bbb907b6e5d1058ec4e3d0ee9a8);
+        
+    
+        var popup_3b22605d532819845692ba3b6a4b8fe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29dd7a05d0f29d5c35675514b03058e3 = $(`<div id="html_29dd7a05d0f29d5c35675514b03058e3" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.14</div>`)[0];
+                popup_3b22605d532819845692ba3b6a4b8fe3.setContent(html_29dd7a05d0f29d5c35675514b03058e3);
+            
+        
+
+        marker_2067080351ef0a0b2b126ee1f0661818.bindPopup(popup_3b22605d532819845692ba3b6a4b8fe3)
+        ;
+
+        
+    
+    
+            var marker_2a0fdc86bd1c4d0e5a2a4b173f52d103 = L.marker(
+                [12.9521897, 80.1411677],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_797b1937de4b471aede104014f29bbe6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a0fdc86bd1c4d0e5a2a4b173f52d103.setIcon(icon_797b1937de4b471aede104014f29bbe6);
+        
+    
+        var popup_65065e31912e3b195fe6e59bdd1fc8d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c11c9d5fbd3687e22454df9bf864d8 = $(`<div id="html_d8c11c9d5fbd3687e22454df9bf864d8" style="width: 100.0%; height: 100.0%;">Ambur Star Biryani - Similarity: 0.14</div>`)[0];
+                popup_65065e31912e3b195fe6e59bdd1fc8d1.setContent(html_d8c11c9d5fbd3687e22454df9bf864d8);
+            
+        
+
+        marker_2a0fdc86bd1c4d0e5a2a4b173f52d103.bindPopup(popup_65065e31912e3b195fe6e59bdd1fc8d1)
+        ;
+
+        
+    
+    
+            var marker_8855246c366a36e2f3ef19e538ef8716 = L.marker(
+                [13.0940791, 80.1922978],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_27115998b02ac5e4aa13072e46fdd171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8855246c366a36e2f3ef19e538ef8716.setIcon(icon_27115998b02ac5e4aa13072e46fdd171);
+        
+    
+        var popup_99a507fe005c3ad778a59612423ab7a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60dd7582b77e6a078427b6a93227312f = $(`<div id="html_60dd7582b77e6a078427b6a93227312f" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.14</div>`)[0];
+                popup_99a507fe005c3ad778a59612423ab7a1.setContent(html_60dd7582b77e6a078427b6a93227312f);
+            
+        
+
+        marker_8855246c366a36e2f3ef19e538ef8716.bindPopup(popup_99a507fe005c3ad778a59612423ab7a1)
+        ;
+
+        
+    
+    
+            var marker_88114a00d1a5ed52d4487149d6a96468 = L.marker(
+                [12.9996907, 80.2682259],
+                {}
+            ).addTo(map_2b827c502320a881fc6a3909097a73d3);
+        
+    
+            var icon_c200a60662b78b6340f95a7f1d5233a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88114a00d1a5ed52d4487149d6a96468.setIcon(icon_c200a60662b78b6340f95a7f1d5233a8);
+        
+    
+        var popup_4f210d30b635b6be7d0f95ba18cb9f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58a20d6c7be877eadb24787995696506 = $(`<div id="html_58a20d6c7be877eadb24787995696506" style="width: 100.0%; height: 100.0%;">Dindigul Thalappakatti - Similarity: 0.14</div>`)[0];
+                popup_4f210d30b635b6be7d0f95ba18cb9f25.setContent(html_58a20d6c7be877eadb24787995696506);
+            
+        
+
+        marker_88114a00d1a5ed52d4487149d6a96468.bindPopup(popup_4f210d30b635b6be7d0f95ba18cb9f25)
+        ;
+
+        
+    
+</script>
+</html>
